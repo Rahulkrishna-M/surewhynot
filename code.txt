@@ -1,0 +1,19 @@
+# surewhynot
+# use this code 
+
+import java.util.Scanner;
+
+public class arr {
+    public static void main(String[] args) {
+        int[] arr = {10, 20, 50, 30, 40, 16, 44, 3};
+        {
+            Scanner sc= new Scanner(System.in);
+            System.out.print("Enter the index of the number you want(between 0 and 7)- ");
+            int a;
+            a = sc.nextInt();
+            if (a <= 7) {
+                System.out.println("the element with that index would be "+arr[a]);
+            } else {
+                System.out.println("the index is non exsistant my guy ");
+
+            }
